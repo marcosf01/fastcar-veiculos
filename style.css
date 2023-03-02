@@ -1,0 +1,146 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #F2F2F2;
+}
+
+/*
+**** Layout ****
+*/
+
+#area-cabecalho {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo {
+    padding: 10px;
+}
+
+#area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#frase-variedade {
+    /* border: 1px solid red; */
+    background: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+.anuncio {
+    background: white;
+    width: 280px;
+    margin: 8px 8px 20px 8px;
+    padding: 10px;
+    float: left;
+}
+
+.anuncio h3, .anuncio h4, .anuncio p {
+    margin:  3px 0;
+}
+
+/*
+**** Formatações menu ****
+*/
+
+a {
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:link, a:visited {
+    color: #313131;
+}
+
+a:hover {
+    color: #FF8800;
+    background: #F2F2F2;
+}
+
+/*
+**** Formatações em geral ****
+*/
+
+h1 {
+    color: #FF8800;
+    font-size: 2.5em;
+}
+
+em {
+    color: #313131;
+}
+
+#frase-variedade h3 {
+    font-size: 1.5em;
+    color: #313131;
+}
+
+#frase-variedade span {
+    color: #FF8800;
+}
+
+.anuncio h3 {
+    color: #313131;
+}
+
+.anuncio h4 {
+    color: #FF8800;
+}
+
+.anuncio p {
+    /* color: #5d5d5d; */
+    color: #919191;
+    font-size: 1em;
+}
+
+/*
+**** Formatações banner IPVA GRÁTIS ****
+*/
+
+#banner {
+    position: relative;
+}
+
+#banner p {
+    font-size: 2.2em;
+    position: absolute;
+    top: 62px;
+    left: 59px;
+    color: #F2F2F2;
+}
+
+.imagem-argo {
+    position: absolute;
+}
+
+.tamanho-texto1 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.tamanho-texto2 {
+    font-size: 2.3em;
+    font-weight: 600;
+    color: #313131;
+}
+
+.tamanho-texto3 {
+    font-size: 0.8em;
+    color: #F2F2F2;
+}
